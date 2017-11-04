@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Bakery Shop</string>
+    <string name="shop_name">Next Door Bakers"</string>
+    <string name="subtitle">The Cake Heaven</string>
+    <string name="hours">HOURS - 10AM to 8PM</string>
+    <string name="address">ADDRESS - 221-B ,Baker Street, 140401,Rajpura ,Punjab</string>
+    <string name="contact">contact -   +91-9000000000</string>
+    <string name="email">EMAIL - nextdoorbakers@gmail.com</string>
+    <string name="website">www.nextdoorbakers.com</string>
 </resources>

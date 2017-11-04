@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/img"
@@ -25,7 +25,7 @@
             android:layout_below="@id/img"
             android:fontFamily="sans-serif"
             android:paddingTop="10dp"
-            android:text="Next Door Bakers"
+            android:text="@string/shop_name"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="#06bc6d"
@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/name"
-            android:text="The Cake Heaven"
+            android:text="@string/subtitle"
             android:textAlignment="center"
             android:textColor="#1c6e4b"
             android:textSize="20sp" />
@@ -50,7 +50,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
-            android:text="HOURS - 10AM to 8PM"
+            android:text="@string/hours"
             android:textColor="#f80f53ab"
             android:textSize="20sp" />
 
@@ -62,7 +62,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="10dp"
-            android:text="ADDRESS - 221-B ,Baker Street, 140401,Rajpura ,Punjab"
+            android:text="@string/address"
             android:textColor="#f80f53ab"
             android:textSize="20sp" />
 
@@ -73,20 +73,20 @@
             android:layout_below="@id/address"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="10dp"
-            android:text="contact -   +91-9000000000"
+            android:text="@string/contact"
             android:textAllCaps="true"
             android:textColor="#f80f53ab"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/mai"
+            android:id="@+id/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/contact"
             android:layout_marginLeft="16dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
-            android:text="EMAIL - nextdoorbakers@gmail.com"
+            android:text="@string/email"
             android:textColor="#f80f53ab"
             android:textSize="20sp" />
 
@@ -94,10 +94,10 @@
             android:id="@+id/web"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/mai"
+            android:layout_below="@id/email"
             android:layout_centerHorizontal="true"
             android:paddingBottom="10dp"
-            android:text="www.nextdoorbakers.com"
+            android:text="@string/website"
             android:textColor="#1c6e4b"
             android:textSize="20sp" />
 
